@@ -1,4 +1,4 @@
-(defproject org.clojars.jj/strict-check "1.0.0"
+(defproject org.clojars.jj/strict-check "1.0.1"
   :description "A wrapper plugin on top of lein check. It checks for reflection warnings in a project,
   and exits with non 0 status, if a reflection warnings were detected."
   :url "https://github.com/ruroru/lein-strict-check"
