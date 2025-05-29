@@ -7,7 +7,7 @@
 (defn- get-lein-executable []
   (if (str/includes? (System/getProperty "os.name") "Windows ")
     "lein.bat"
-    "lein.sh"))
+    "lein"))
 
 (defn strict-check
   "Check syntax and warn on reflection and exit with non 0 status code when errors were detected."
