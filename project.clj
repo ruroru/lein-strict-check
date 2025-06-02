@@ -10,4 +10,5 @@
   :deploy-repositories [["clojars" {:url      "https://repo.clojars.org"
                                     :username :env/clojars_user
                                     :password :env/clojars_pass}]]
-  :plugins [[org.clojars.jj/bump "1.0.4"]])
+  :plugins [[org.clojars.jj/bump "1.0.4"]
+            [org.clojars.jj/strict-check "1.0.2"]])
