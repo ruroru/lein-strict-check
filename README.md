@@ -8,7 +8,7 @@ strict-check is a leiningen plugin that wraps lein check. It checks for reflecti
 Add to plugins list
 
 ```clojure 
-[org.clojars.jj/strict-check "1.0.2"]
+[org.clojars.jj/strict-check "1.1.0"]
 ```
 
 ## Usage
