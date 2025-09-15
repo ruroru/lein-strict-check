@@ -17,6 +17,10 @@ Add to plugins list
 lein strict-check ; echo $?
 ```
 
+To filter out reflection warnings for specific namespaces
+```clojure
+{:strict-check {:filter ["foo.bar" "baz.qux"]}}
+```
 ## License
 
 Copyright © 2025 [ruroru](https://github.com/ruroru)

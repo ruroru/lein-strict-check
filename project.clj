@@ -7,8 +7,10 @@
   :dependencies [[org.clojure/clojure "1.12.2"]
                  [leiningen-core "2.12.0"]]
 
+  :profiles {:test {:dependencies [[mock-clj "0.2.1"]]}}
   :deploy-repositories [["clojars" {:url      "https://repo.clojars.org"
                                     :username :env/clojars_user
                                     :password :env/clojars_pass}]]
   :plugins [[org.clojars.jj/bump "1.0.4"]
+            [org.clojars.jj/bump-md "1.1.0"]
             [org.clojars.jj/strict-check "1.0.2"]])
